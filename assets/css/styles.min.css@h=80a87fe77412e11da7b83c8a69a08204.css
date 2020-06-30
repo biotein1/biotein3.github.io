@@ -1,0 +1,248 @@
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  font-size: 70px;
+}
+
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+
+.blc {
+  font-size: 70px;
+}
+
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+
+.cd-headline.clip span {
+  display: inline-block;
+  padding: .2em 0;
+}
+
+.cd-headline.clip .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.cd-headline.clip b {
+  opacity: 0;
+}
+
+.cd-headline b.is-visible {
+  opacity: 1;
+  font-weight: 900;
+}
+
+span {
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: #49c970;
+  #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link: hover {  color: #49c970;
+  font-weight: 500;
+}
+
+div.jumbotron.carousel-hero {
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+}
+
+div.jumbotron.hero-nature {
+  background-image: url('http://bioteinresearch.bss.design/assets/css/hero-background-nature.jpg');
+}
+
+div.jumbotron.hero-photography {
+  background-image: url('http://bioteinresearch.bss.design/assets/css/hero-background-photography.jpg');
+}
+
+div.jumbotron.hero-technology {
+  background-image: url('http://bioteinresearch.bss.design/assets/css/hero-background-technology.jpg');
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  color: #fff;
+}
+
+p.hero-subtitle {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #1dba4d!important;
+  border-color: #1dba4d!important;
+  color: #ffffff;
+  border-radius: 30px;
+  width: 20%;
+}
+
+.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger {
+  border-radius: 1em;
+  border: none;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #49c970;
+  font-weight: 700;
+  /*font-size: 14.4px;*/
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #49c970;
+  border-color: #49c970;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: rgb(73,201,112);
+}
+
+body::-moz-selection {
+  background: rgb(73,201,112);
+}
+
+h1::selection {
+  background: rgb(73,201,112);
+}
+
+p::selection {
+  background: rgb(73,201,112);
+}
+
+button::selection {
+  background: rgb(73,201,112);
+}
+
+header.masthead {
+  text-align: center;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50%;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  .headmain {
+    font-size: 10vw;
+  }
+}
+
+@media (min-width: 577px) {
+  .headmain {
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 577px) {
+  .headsub {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .headsub {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .team-member img {
+    width: 350px;
+    height: 160px;
+    border: 7px solid #fff;
+  }
+}
+
+@media (min-width: 350px) and (max-width:575px) {
+  .team-member img {
+    width: 65vw;
+    height: 65vw;
+    border: 7px solid #fff;
+  }
+}
+
+#mission {
+  line-height: 1.8;
+}
+
+.form-control::selection {
+  color: #49c970;
+}
+
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+  color: #212529;
+  background-color: #1dba4d!important;
+  border-color: #1dba4d!important;
+}
+
+div.jumbotron.hero-food {
+  color: #fff;
+  text-align: center;
+  background: url('../img/DNA.gif@h=b6ac5481a19a7ff2fc21b8eb80063ee7');
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  color: #fff;
+}
+
+p.hero-subtitle {
+  max-width: 600px;
+  margin: 25px auto;
+  color: #fff;
+}
+
+div.jumbotron.hero-nature {
+  color: #fff;
+  text-align: center;
+  background: url('http://bioteinresearch.bss.design/assets/css/hero-background-nature.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("../img/DNA.gif@h=b6ac5481a19a7ff2fc21b8eb80063ee7");
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  color: #fff;
+}
+
+.btn.btn-primary.btn-lg.hero-button {
+}
+
+p.hero-subtitle {
+  max-width: 600px;
+  margin: 25px auto;
+  color: #fff;
+}
+
+.btn.btn-primary.btn-lg.hero-button {
+  border-radius: 10px;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  border-radius: 30px;
+  background-color: #1dba4d!important;
+}
+
